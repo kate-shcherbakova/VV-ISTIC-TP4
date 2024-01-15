@@ -56,7 +56,7 @@ Use [jqwik](https://jqwik.net/) to create property based tests verifying these t
 - `parseRomanNumeral`: converts a Roman numeral string to its corresponding integer value.
 - `toRomanNumeral`: converts an integer to its Roman numeral representation.
 
-#### Test Class `RomanNumeralUtilsTest`
+#### Test class `RomanNumeralUtilsTest`
 
 - isValidTrueForValidNumerals: Tests if the isValidRomanNumeral method returns true for valid Roman numerals.
 - isValidFalseForInvalidNumerals: Tests if the isValidRomanNumeral method returns false for invalid Roman numerals.
@@ -64,13 +64,13 @@ Use [jqwik](https://jqwik.net/) to create property based tests verifying these t
 
 ## Step-by-step implementation
 
-#### 1. Property-Based Tests with jqwik
+#### 1. Property-based tests with jqwik
 For each method, the properties that the method must satisfy should be defined and various test cases based on these properties should be implemented in `RomanNumeralTest`.
 
 #### 2. Methods implementation
 Methods in `RomanNumeralUtils` should be implemented based on the rules provided for Roman numerals.
 
 ## Results 
-Upon thorough testing using property-based testing with Jqwik, all the tests for the `RomanNumeralUtils` class have passed successfully.
+Upon thorough testing using property-based testing with `jqwik`, all the tests for the `RomanNumeralUtils` class have passed successfully.
 
 ![roman](images/roman.jpg)
